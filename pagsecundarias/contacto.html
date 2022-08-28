@@ -19,62 +19,135 @@
     <header>
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html">Inicio</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="../index.html">Frangance Store</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="../pagsecundarias/mens.html">Mens</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand" href="../pagsecundarias/womens.html">Womens</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand" href="../pagsecundarias/kids.html">Kids</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand" href="../pagsecundarias/ubicacion.html">Ubicacion</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pagsecundarias/mens.html"
+                  >Mens</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pagsecundarias/womens.html"
+                  >Womens</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pagsecundarias/kids.html"
+                  >Kids</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="../pagsecundarias/ubicacion.html"
+                  >Ubicacion</a
+                >
+              </li>
+            </ul>
             <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Buscar</button>
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
             </form>
           </div>
         </div>
       </nav>
     </header>
-    <div>
-      <form action="">
-        <div>
-          <label for="nombre">Nombre</label>
-          <input type="text" placeholder="nombre" id="nombre" />
-        </div>
-        <div>
-          <label for="apellido">Apellido</label>
-          <input type="text" placeholder="apellido" id="apellido" />
-        </div>
-        <div>
-          <label for="numero telefono">Numero de Telefono</label>
+    <section>
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputName1" class="form-label"
+            >Nombre y Apellido</label
+          >
           <input
-            type="text"
-            placeholder="numero de telefono"
-            id="numero telefono"
+            type="name"
+            class="form-control"
+            id="exampleInputName1"
+            aria-describedby="name"
           />
+          <div id="nameHelp" class="form-text">
+            We'll never share your Name with anyone else.
+          </div>
         </div>
-        <div>
-          <label for="correo">Correo Electronico</label>
-          <input type="email" id="correo" />
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.
+          </div>
         </div>
+        <div class="mb-3">
+          <label for="exampleInputName1" class="form-label"
+            >Motivo de Contacto</label
+          >
+          <input
+            type="name"
+            class="form-control"
+            id="exampleInputName1"
+            aria-describedby="name"
+          />
+          <div id="nameHelp" class="form-text">
+            We'll never share your information with anyone else.
+          </div>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >Confirmar Datos</label
+          >
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
       </form>
-    </div>
+    </section>
 
     <footer>
-      Pagina creada por Rodrigo Cespedes (falta editar contenido aca )
-    </footer>
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+          <li class="nav-item"><a href="../pagsecundarias/mens.html" class="nav-link px-2 text-muted">Mens</a></li>
+          <li class="nav-item"><a href="../pagsecundarias/womens.html" class="nav-link px-2 text-muted">Womens</a></li>
+          <li class="nav-item"><a href="../pagsecundarias/ubicacion.html" class="nav-link px-2 text-muted">Ubicacion</a></li>
+          <li class="nav-item"><a href="../pagsecundarias/contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
+        </ul>
+        <p class="text-center text-muted">&copy; 2022 Company, Inc</p>    </footer>
     <!-- JavaScript Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"

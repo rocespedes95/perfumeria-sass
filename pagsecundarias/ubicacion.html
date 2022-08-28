@@ -20,37 +20,59 @@
     <header>
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html">inicio</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="../index.html">Frangance Store</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="../pagsecundarias/mens.html">Mens</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand" href="../pagsecundarias/womens.html">Womens</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand" href="../pagsecundarias/kids.html">Kids</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand" href="../pagsecundarias/contacto.html">Contacto</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pagsecundarias/mens.html">Mens</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pagsecundarias/womens.html">Womens</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pagsecundarias/kids.html">Kids</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pagsecundarias/contacto.html">Contacto</a>
+              </li>
+
+              
+
+            </ul>
             <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Buscar</button>
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
             </form>
           </div>
         </div>
       </nav>
     </header>
     <main>
-      <p> Descripcion de la tienda donde estamos ubicados garantias y compromiso con los prodtctos ofrecidos etc y abajo mapa Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, eum aperiam! Exercitationem tenetur eum, non veritatis dolore vero asperiores cumque voluptatibus repellat est ipsam sit itaque adipisci, quos repudiandae esse eveniet nemo eligendi. Quod tempora necessitatibus beatae earum nobis id!
+      <p> Somos una Tienda ubicada en el corazon de la ciudad de La Plata, comprometidos para brindarte los mejores productos para poder lucir y hacer notar todo eso que sos, nuestro equipo esta para brindarte toda la informacion para encontrar el el estilo que mas se ajusta a vos ya sea para eventos imortantes casuales o cotidianas
+      </p>
+      <p>
+        Todos los productos cuentan con garantia, siempre y cuando se encuentren en buen estado tanto el producto como el packaging.Para la correcta devolucion comunicarse con nosotros en la seccion contacto.
       </p>
       <div class="mapa">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d204.47343525157427!2d-57.95529369265977!3d-34.91711449999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e6316ee8e9d9%3A0x5c05a1149c6f1f94!2sC.%2048%20781%2C%20La%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1661297532177!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -59,7 +81,15 @@
 
 
     <footer>
-      Pagina creada por Rodrigo Cespedes (falta editar contenido aca )
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+          <li class="nav-item"><a href="../pagsecundarias/mens.html" class="nav-link px-2 text-muted">Mens</a></li>
+          <li class="nav-item"><a href="../pagsecundarias/womens.html" class="nav-link px-2 text-muted">Womens</a></li>
+          <li class="nav-item"><a href="../pagsecundarias/ubicacion.html" class="nav-link px-2 text-muted">Ubicacion</a></li>
+          <li class="nav-item"><a href="../pagsecundarias/contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
+        </ul>
+        <p class="text-center text-muted">&copy; 2022 Company, Inc</p>
     </footer>
     
     <!-- JavaScript Bundle with Popper -->
