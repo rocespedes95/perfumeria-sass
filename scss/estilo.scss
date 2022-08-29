@@ -1,0 +1,47 @@
+ @import"variables";
+
+
+h1{ text-align: center;
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: uppercase;
+    color: $color-titulo;
+}
+
+.bodyGeneral{
+    background-color: #e2c044;
+}
+
+.barraNav{
+    background-color: #4ea8de !important;
+    
+    border-radius: 8px;
+    height: 10rem;
+    
+    a{
+        font-size: 2.5rem;
+        color: #c9184a;
+    
+    }
+    
+
+}
+.carrito{
+   margin-top: 60px;
+   margin-left: 40rem;
+}
+.mainPagina{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-left: 50px;
+    margin-top: 50px;    
+
+}
+.testoxD{
+    margin-top: 30px;
+}
+.pie{
+    margin-bottom: 1px;
+}
