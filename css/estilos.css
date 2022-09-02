@@ -6,6 +6,9 @@ h1 {
   text-decoration: uppercase;
   color: #5a189a; }
 
+.bodyIndex {
+  background-color: #ffd670; }
+
 .bodyGeneral {
   background-color: #e2c044; }
 
@@ -14,6 +17,7 @@ h1 {
   border-radius: 8px;
   height: 10rem; }
   .barraNav a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 2.5rem;
     color: #c9184a; }
 
@@ -29,7 +33,9 @@ h1 {
   margin-top: 50px; }
 
 .testoxD {
-  margin-top: 30px; }
+  margin-top: 30px;
+  color: #9a031e;
+  font-size: 40px; }
 
 .pie {
   margin-bottom: 1px; }
@@ -44,3 +50,6 @@ h1 {
 .mapa {
   margin-top: 40px;
   margin-left: 630px; }
+
+.formuLario {
+  margin-top: 50px; }

@@ -1,3 +1,4 @@
+ 
  @import"variables";
 
 
@@ -8,7 +9,7 @@ h1{ text-align: center;
     text-decoration: uppercase;
     color: $color-titulo;
 }
-
+.bodyIndex{background-color: #ffd670;}
 .bodyGeneral{
     background-color: #e2c044;
 }
@@ -20,9 +21,9 @@ h1{ text-align: center;
     height: 10rem;
     
     a{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 2.5rem;
         color: #c9184a;
-    
     }
     
 
@@ -41,6 +42,8 @@ h1{ text-align: center;
 }
 .testoxD{
     margin-top: 30px;
+    color: map-get($texto, color);
+    font-size: map-get($texto, tamFuente );
 }
 .pie{
     margin-bottom: 1px;
@@ -55,4 +58,7 @@ h1{ text-align: center;
 .mapa{
     margin-top: 40px;
     margin-left: 630px;
+}
+.formuLario{
+    margin-top: 50px;
 }
