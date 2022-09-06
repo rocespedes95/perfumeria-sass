@@ -65,3 +65,9 @@ h1{ text-align: center;
 .formuLario{
     margin-top: 50px;
 }
+.textito{
+    @include parrafo;
+}
+.spamxD{
+    @include importante(30px,left)
+}
